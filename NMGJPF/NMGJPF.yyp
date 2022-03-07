@@ -1,10 +1,20 @@
 {
   "resources": [
+    {"id":{"name":"Sprite1_1","path":"sprites/Sprite1_1/Sprite1_1.yy",},"order":2,},
+    {"id":{"name":"sAttack_2","path":"sprites/sAttack_2/sAttack_2.yy",},"order":8,},
+    {"id":{"name":"Sprite1_3","path":"sprites/Sprite1_3/Sprite1_3.yy",},"order":7,},
+    {"id":{"name":"Sprite1_2","path":"sprites/Sprite1_2/Sprite1_2.yy",},"order":4,},
+    {"id":{"name":"oEnem","path":"objects/oEnem/oEnem.yy",},"order":8,},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},"order":0,},
+    {"id":{"name":"sAttack_1","path":"sprites/sAttack_1/sAttack_1.yy",},"order":5,},
+    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":3,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":1,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"oTimer","path":"objects/oTimer/oTimer.yy",},"order":2,},
-    {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"order":5,},
+    {"id":{"name":"sEnem","path":"sprites/sEnem/sEnem.yy",},"order":6,},
+    {"id":{"name":"sAttack","path":"sprites/sAttack/sAttack.yy",},"order":3,},
+    {"id":{"name":"oAttack","path":"objects/oAttack/oAttack.yy",},"order":4,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
