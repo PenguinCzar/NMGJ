@@ -3,34 +3,15 @@ right = keyboard_check(vk_right);
 down = keyboard_check(vk_down);
 up = keyboard_check(vk_up);
 
-if (left){
-	inptdir = 180;
-	image_xscale = -1;
-}
-if (right){
-	inptdir = 0;
-	image_xscale = 1;
-}
-if (down){
-	inptdir = 270;
-}
-if (up){
-	inptdir = 90;
-}
+
 
 
 
 
 if(Scheme == 1){
-hInput = right-left;
-vInput = down-up;
-fight = keyboard_check_pressed(ord("B"));
-perish = keyboard_check_pressed(ord("F"));
+NormalState();
 }else{
-hInput = left-right;
-vInput = up-down;
-fight = keyboard_check_pressed(ord("F"));
-perish = keyboard_check_pressed(ord("B"));
+ShiftState();
 }
 
 
